@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Extension Name</key>
+		<string>Flutter Docs</string>
+		
+		<key>Extension Identifier</key>
+		<string>com.redalazri.extension.flutter</string>
+		
+		<key>Extension Description</key>
+		<string>Search the official Flutter documentation</string>
+		
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>URL</key>
+				<string>https://flutter.io/search?q={popclip text}</string>
+				
+				<key>Image File</key>
+				<string>flutter.png</string>
+				
+				<key>Title</key>
+				<string>Seach Flutter Docs</string>
+			</dict>
+		</array>
+	</dict>
+</plist>
